@@ -10,7 +10,7 @@ local function Success(key)
     getgenv().SCRIPT_KEY = key -- Store key for the main script if needed
     
     -- This is your "Extract Script" (The actual game hack)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0LuckyBlock"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PXG4E/Kickaluckyblocks/refs/heads/main/Runexec2"))()
 end
 
 -- Check if a key is already saved on the computer
